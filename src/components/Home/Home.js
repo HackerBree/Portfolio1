@@ -19,7 +19,7 @@ function Home() {
 // ====================================================================================================================================================
 
 // EDIT THIS PART:
-// SELECT THE SKIN TONE THAT WORKS BEST FOR YOU (ONLY CHOOSE ONE OR THE CODE WON'T WORK): 👋 👋🏻 👋🏼 👋🏽 👋🏾 👋🏿
+// SELECT THE SKIN TONE THAT WORKS BEST FOR YOU THEN COPY AND PASTE IT INSIDE THE SPAN CODE (ONLY CHOOSE ONE OR THE CODE WON'T WORK): 👋 👋🏻 👋🏼 👋🏽 👋🏾 👋🏿
 
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
