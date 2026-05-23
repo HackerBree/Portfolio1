@@ -35,6 +35,9 @@ To customize the Home Page, locate this file inside the project:
           src/components/Home/Home.js
       
 Yes, the file is called **Home.js**. This is where the main landing page text is edited.
+Once you have the `Home.js`file open click this editing icon on the screen,
+
+<img src="README-Images/Edit-code.png" width="500">
 
 ---
 
@@ -66,7 +69,7 @@ Replace it with your real name, your nickname or anything you would like visitor
 
 
 
-<img width="959" height="494" alt="Screenshot 2026-05-23 172658" src="https://github.com/user-attachments/assets/48d86091-0f56-4061-b0a7-98370d5567b6" />
+
 
 
 # 🌟 Final Result
