@@ -67,7 +67,7 @@ Choose **ONLY ONE** of these:
 
 Please select **only one emoji**.
 
-If multiple emojis are chosen, the code may not work correctly.
+If multiple emojis are chosen, the code may not work correctly. Stay on the same file for step 3.
 
 
 ---
@@ -83,15 +83,22 @@ You will see something like this on the Home Page:
 
 Replace it with your real name, your nickname or anything you would like visitors to call you.
 
+
+---
+
+
+✨ Step 4: Saving The Edits
+
+For you to save this 2 edits you have made locate the `Commit Changes` button like below circled in red.
+
+   <img src="README-Images/Saving-code.png" width="500">
+
+If your prompted again, click the `Commit Changes` button again on the prompt.
+
+You should see some changes on the portfolio.
+
+
 ---
 
 
 
-
-
-
-# 🌟 Final Result
-
-Once you save the file, your Home Page greeting will instantly become personalized and feel much more like *your own space on the internet*.
-
-Take your time customizing everything — portfolios are meant to represent *you*.
