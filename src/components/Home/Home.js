@@ -16,30 +16,22 @@ function Home() {
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
 
-// ====================================================================================================================================================
-
-// EDIT THIS PART:
-// SELECT THE SKIN TONE THAT WORKS BEST FOR YOU THEN COPY AND PASTE IT INSIDE THE SPAN CODE (ONLY CHOOSE ONE OR THE CODE WON'T WORK): 👋 👋🏻 👋🏼 👋🏽 👋🏾 👋🏿
+                {/* EDIT THIS PART:
+                    Select the skin tone that works best for you and replace the emoji below.
+                    Only keep ONE & replace it in the span code: 👋 👋🏻 👋🏼 👋🏽 👋🏾 👋🏿 */}
 
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
-
-// ====================================================================================================================================================
               </h1>
 
               <h1 className="heading-name">
                 I'M
 
-// ====================================================================================================================================================
+                {/* EDIT THIS PART:
+                    Directly under this replace [YOUR NAME] with your preferred name */}
 
-// EDIT THIS PART:
-// WHERE IT SAYS [YOUR NAME] CHANGE THAT TO YOUR PREFERRED NICKNAME OR REAL NAME
-                  
                 <strong className="main-name"> [YOUR NAME] </strong>
-// ====================================================================================================================================================
-
-                  
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
