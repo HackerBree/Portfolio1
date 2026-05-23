@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 
 function ProjectCards(props) {
+  const [hovered, setHovered] = useState(false);
+
   return (
     <Card className="project-card-view">
       <div style={{
@@ -26,27 +27,27 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         <div style={{ textAlign: "center" }}>
-          <Button
+          
             href={props.writeupLink}
             target="_blank"
+            rel="noreferrer"
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
             style={{
-              backgroundColor: "#c770f0",
+              display: "inline-block",
+              padding: "8px 20px",
+              borderRadius: "5px",
               border: "2px solid #c770f0",
-              color: "white",
-              transition: "all 0.3s ease",
+              backgroundColor: hovered ? "white" : "#c770f0",
+              color: hovered ? "#c770f0" : "white",
               fontWeight: "bold",
-            }}
-            onMouseEnter={e => {
-              e.currentTarget.style.backgroundColor = "white";
-              e.currentTarget.style.color = "#c770f0";
-            }}
-            onMouseLeave={e => {
-              e.currentTarget.style.backgroundColor = "#c770f0";
-              e.currentTarget.style.color = "white";
+              textDecoration: "none",
+              transition: "all 0.3s ease",
+              cursor: "pointer",
             }}
           >
             View Project
-          </Button>
+          </a>
         </div>
       </Card.Body>
     </Card>
