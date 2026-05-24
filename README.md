@@ -145,12 +145,6 @@ Inside `Type.js`, look between approximately **line 10 and line 21**.
 
 You will find a list of role title placeholders along with a commented instruction explaining what to edit.
 
-
----
-
-
-✨ Step 6: Adding or Removing Roles
-
 You can:
 
 * Add as many roles as you want
@@ -170,7 +164,7 @@ Once your done save the code using the instructions mentioned in Step 4.
 ---
 
 
-✨ Step 7: Customizing Your Portfolio Brand Name
+✨ Step 6: Customizing Your Portfolio Brand Name
 
 Now it’s time to give your portfolio its own identity by creating a **brand name**.
 
@@ -214,7 +208,7 @@ Replace the `[Name]` with your brand name.
 ---
 
 
-✨ Step 8: Customizing Your Introduction Section
+✨ Step 7: Customizing Your Introduction Section
 
 Now it’s time to introduce yourself properly to visitors viewing your portfolio.
 
@@ -266,7 +260,7 @@ You will see instructions in the code to assist you with writing this section.
 ---
 
 
-✨ Step 9: Changing the Animated Character (OPTIONAL!!!)
+✨ Step 8: Changing the Animated Character (OPTIONAL!!!)
 
 By default, the portfolio comes with an animated character on the Home Page.
 
