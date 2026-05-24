@@ -166,8 +166,30 @@ Make sure:
 
 Once your done save the code using the instructions mentioned in Step 4.
 
+
 ---
 
 
+✨ Step 7: Customizing Your Portfolio Brand Name
+
+Now it’s time to give your portfolio its own identity by creating a **brand name**.
+
+Think of this as the logo or title visitors will see in your navigation bar.
+
+Choose something that best represents *you* and your personal brand.
+
+Locate and open this file:
+
+      src/components/Navbar.js
+
+
+Yes, the file is called **Navbar.js**. This file controls the navigation bar displayed at the top of your portfolio.
+
+Inside `Navbar.js`, go to **line 51**.
+
+You will see some instructions to change the brand name from `[Name]` to your choosing.
+
+
+---
 
 
