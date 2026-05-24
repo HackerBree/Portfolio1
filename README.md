@@ -188,7 +188,7 @@ This is the section we’re going to customize shown below.
 
 <img src="README-Images/tabs-name.png" width="500">
 
-When someone opens your portfolio, this name will appear:At the top of the browser tab, In bookmarks and when visitors switch between tabs.
+When someone opens your portfolio, this name will appear: At the top of the browser tab, In bookmarks and when visitors switch between tabs.
 
 Locate and open this file:
 
