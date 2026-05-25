@@ -38,246 +38,150 @@ When creating your account:
 
 ---
 
-# 🔗 Step 2 — Connect GitHub To Vercel
+✨ Step 2: Connect GitHub To Vercel
 
 Once logged into Vercel, locate the section called:
 
-```txt id="n8r2wy"
-Import Git Repository
-```
+      Import Git Repository
 
 I’ve attached an image below showing where this is located.
 
----
+<img src="README-Images/Connect-github.png" width="1000">
 
-## ✨ Connect Your GitHub Account
-
-Inside the **Import Git Repository** section:
+Connect your gitHub account inside the **Import Git Repository** section:
 
 1. Connect your GitHub account to Vercel
 2. You should now see an **Install** button appear
 3. Click the **Install** button like shown in the image below
 
----
+<img src="README-Images/Install-github.png" width="1000">
 
-# 📂 Import Your Portfolio Repository
+After installing GitHub access all of your repositories should now appear underneath the:
 
-After installing GitHub access:
+      Import Git Repository
 
-* All of your repositories should now appear underneath the:
+section. Locate the specific portfolio repository and import it.
 
-```txt id="m4v7qp"
-Import Git Repository
-```
+<img src="README-Images/Repositories.png" width="1000">
 
-section.
-
-Locate the specific portfolio repository and import it.
 
 ---
 
-# 🌐 Choose Your Domain Name
+
+✨ Step 3: Choose Your Domain Name
 
 Before deploying, you can customize your domain name to whatever you want.
 
 For example:
 
-```txt id="z1r9hx"
-cyberkai.vercel.app
-```
+      cyberkai.vercel.app  or  alexportfolio.vercel.app
 
-or
+Then click the: Deploy button. ⚠️ Don’t Panic If You Get Errors
 
-```txt id="q6t3mw"
-alexportfolio.vercel.app
-```
-
-Then click the:
-
-```txt id="y2k8nv"
-Deploy
-```
-
-button.
-
----
-
-# ⚠️ Don’t Panic If You Get Errors
+<img src="README-Images/Deploy.png" width="1000">
 
 If you immediately see a:
 
 * 🔴 Red dot = deployment error
 * 🟢 Green dot = successful deployment
 
-then don’t worry.
-
-If you received a green dot, you can skip the next troubleshooting steps.
+then don’t worry. If you received a green dot, you can skip Step 4 the troubleshooting step.
 
 If you received a red dot, continue below.
 
+
 ---
 
-# 🛠️ Step 3 — Fixing Deployment Errors
+
+✨ Step 4: Fixing Deployment Errors (TROUBLESHOOTING)
 
 Click the:
 
-```txt id="f8w3pc"
-Go To Projects
-```
+      Go To Projects
 
-button.
+Locate "Environment Variables" on the left-hand sidebar, find this:
 
----
+      Environment Variables
 
-## 🔍 Locate Environment Variables
+like shown in the image below then click:
 
-On the left-hand sidebar, locate:
+      Add Environment Variable
 
-```txt id="c7v1mq"
-Environment Variables
-```
+<img src="README-Images/deployment-error.png" width="1000">
 
-like shown in the image below.
-
-Then click:
-
-```txt id="d2q9ra"
-Add Environment Variable
-```
-
----
-
-# ✍️ Add The First Environment Variable
-
-A new panel should appear.
-
-Fill in the fields exactly like this:
+Now add the first environment variable. A new panel should appear. Fill in the fields exactly like this:
 
 ### Key
 
-```txt id="u5m8zn"
-CI
-```
+      CLI
 
 ### Value
 
-```txt id="k4r2jx"
-false
-```
+      false
 
-Then click:
+Then click: Save
 
-```txt id="t7n6qw"
-Save
-```
-
----
-
-# ✍️ Add The Second Environment Variable
-
-Now repeat the exact same process again.
-
-Click:
-
-```txt id="x3p8mh"
-Add Environment Variable
-```
-
-Then enter:
+Now add the second environment variable. 
 
 ### Key
 
-```txt id="w6q2rv"
-CLI
-```
+      CI
 
 ### Value
 
-```txt id="n9t4zy"
-false
-```
+      false
 
-Then click:
+Then click: Save
 
-```txt id="g2m7vx"
-Save
-```
 
----
-
-# 🔄 Redeploy Your Portfolio
-
-Once both environment variables have been added, click the:
-
-```txt id="b5r1kn"
-Redeploy
-```
-
-button.
+Once both environment variables have been added, click the: Redeploy button.
 
 You can redeploy in two ways:
 
-### Option 1
+Option 1: Use the redeploy button shown on the deployment page.
 
-Use the redeploy button shown on the deployment page.
+<img src="README-Images/Redeploy.png" width="1000">
 
-### Option 2
+Option 2: 
 
-1. Select:
+* Select: Deployments from the left-hand sidebar
+* Open the failed deployment/error message
+* Click: Redeploy in the top corner
 
-```txt id="p8z6tm"
-Deployments
-```
+<img src="README-Images/second-redeploy.png" width="1000">
+<img src="README-Images/second-redeploy2.png" width="1000">
 
-from the left-hand sidebar
-
-2. Open the failed deployment/error message
-3. Click:
-
-```txt id="j1q4wc"
-Redeploy
-```
-
-in the top corner
 
 ---
 
-# 🌐 Opening Your Portfolio
+
+✨ Step 5:  Opening Your Portfolio
 
 Once deployment succeeds, you should now be able to open your portfolio using any of the generated Vercel domains shown on the screen.
 
+<img src="README-Images/domain-name.png" width="1000">
+
+
 ---
 
-# ✨ Changing Your Domain Name Later
+
+✨ Step 6: Changing Your Domain Name Later (OPTIONAL)
 
 If you want to change your domain name later:
 
-1. Select:
+Select: "Domains" from the left-hand sidebar then click, Edit like shown in the image below
 
-```txt id="e3m7yr"
-Domains
-```
+<img src="README-Images/change-domain-name.png" width="1000">
 
-from the left-hand sidebar
+Enter your preferred domain name. Click: Save
 
-2. Click:
+If Vercel gives you a confirmation prompt like the one below, any of the two option should work fine.
 
-```txt id="a8v2qp"
-Edit
-```
+<img src="README-Images/change-domain-name-prompt.png" width="1000">
 
-like shown in the image below
-
-3. Enter your preferred domain name
-4. Click:
-
-```txt id="r6t9nx"
-Save
-```
-
-If Vercel gives you a confirmation prompt, any option should work fine.
 
 ---
+
 
 # 🎉 Perfect — Setup Complete
 
@@ -287,21 +191,15 @@ Your portfolio should now be successfully deployed online and ready to customize
 
 From this point forward, all of the customization instructions in this README should work correctly.
 
----
-
 # 🛠️ Troubleshooting Tips
 
 If your code ever stops working or something breaks:
 
 Head over to the Vercel platform and check:
 
-```txt id="w9n5kv"
-Deployment Errors
-```
+      Deployment Errors
 
-Vercel usually gives very helpful error messages explaining what caused the problem.
-
-And of course — feel free to ask your AI assistant for some help along the way.
+Vercel usually gives very helpful error messages explaining what caused the problem. And of course, feel free to ask your AI assistant for some help along the way.
 
 
 ---
@@ -369,7 +267,7 @@ Yes, the file is called **Home.js**. This is where the main landing page text is
 
 Once you have the `Home.js`file open, click this editing icon on the screen,
 
-<img src="README-Images/Edit-code.png" width="500">
+<img src="README-Images/Edit-code.png" width="1000">
 
 
 ---
@@ -411,7 +309,7 @@ Replace it with your real name, your nickname or anything you would like visitor
 
 For you to save this 2 edits you have made locate the `Commit Changes` button like below circled in red.
 
-   <img src="README-Images/Saving-code.png" width="500">
+   <img src="README-Images/Saving-code.png" width="1000">
 
 If your prompted again, click the `Commit Changes` button again on the prompt.
 
@@ -489,7 +387,7 @@ Now let’s add your brand name to the very top of the browser tab.
 
 This is the section we’re going to customize shown below.
 
-<img src="README-Images/tabs-name.png" width="500">
+<img src="README-Images/tabs-name.png" width="1000">
 
 When someone opens your portfolio, this name will appear: At the top of the browser tab, In bookmarks and when visitors switch between tabs.
 
@@ -579,11 +477,11 @@ Use the image below as a guide, inside this folder:
 2. Select the image you want to use.
 3. Click the **Commit Changes** button after the upload finishes.
 
-<img src="README-Images/Upload-files.png" width="500">
+<img src="README-Images/Upload-files.png" width="1000">
 
 And make sure you save it using "Commit Changes".
 
-<img src="README-Images/Saving-upload-files.png" width="500">
+<img src="README-Images/Saving-upload-files.png" width="1000">
 
 Now locate and open this file:
 
