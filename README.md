@@ -390,6 +390,12 @@ You can write your project documentation in: Microsoft Word, Google Docs, Or as 
 
 Once converted, copy and paste the generated HTML code into your write-up file between the `EDIT BETWEEN THIS LINES SECTIONS`.
 
+
+---
+
+
+✨ Step 2: Adding Screenshots To Write-Ups.
+
 If you want to include screenshots, diagrams, or images inside your project documentation:
 
 First upload all screenshots to this folder:
@@ -408,7 +414,7 @@ Nothing should happen visually on the portfolio so far. In the next step you wil
 ---
 
 
-✨ Step 2: Customizing Your Projects Text
+✨ Step 3: Customizing Your Projects Text
 
 Each individual project card contains text that helps visitors understand:
 
@@ -436,6 +442,11 @@ To change the words displayed on the project cards, edit the text inside both th
       title=
       description=
 
+---
+
+
+✨ Step 4: Connecting Your Write-Up to the Main Project Card
+
 Each project card contains a line similar to this:
 
       writeupLink="/writeup/ThinkingLikeAHacker"
@@ -459,6 +470,12 @@ Example:
 Only replace the final write-up name.
 
 Changing the structure incorrectly may stop the project links from working properly.
+
+
+---
+
+
+✨ Step 5: Changing The Image On The Main Project Card
 
 If you want to change the image on the main projects page of each individual project card. First, locate this folder:
 
@@ -485,6 +502,12 @@ Do not change this part:
 Only replace the image file name at the end.
 
 If the image name is incorrect or misspelled, the project image will not display correctly.
+
+
+---
+
+
+✨ Step 6: Adding New Projects To The Portfolio
 
 If you want to add additional project cards to your portfolio. Copy and paste all code between one individual project section:
 
