@@ -28,7 +28,7 @@ function Projects() {
               imgPath={require("../../Assets/ProjectImages/placeholder1.jpeg")}
               title="Thinking Like A Hacker"
               description="A demonstration of how hackers find open doors in a network before the bad guys do. This project shows the tools and steps used to safely test a system's weak points, helping organisations fix problems before they become breaches."
-              writeupLink="src/components/Projects/Writeups/ThinkingLikeAHacker.js"
+              writeupLink="/writeup/ThinkingLikeAHacker"
             />
           </Col>
 
@@ -38,7 +38,7 @@ function Projects() {
               imgPath={require("../../Assets/ProjectImages/placeholder2.jpeg")}
               title="Phishing Simulation"
               description="Ever wondered how people fall for fake emails? This project recreates a controlled phishing attack to show how convincing these tricks can be, and more importantly, how to spot and avoid them in real life."
-              writeupLink="src/components/Projects/Writeups/PhishingSimulation.js"
+              writeupLink="/writeup/PhishingSimulation"
             />
           </Col>
 
@@ -48,7 +48,7 @@ function Projects() {
               imgPath={require("../../Assets/ProjectImages/placeholder3.jpeg")}
               title="Password Cracking 101"
               description="This project demonstrates how weak passwords can be cracked in seconds using common tools. It highlights why strong, unique passwords matter and how attackers think when trying to get into your accounts."
-              writeupLink="src/components/Projects/Writeups/PasswordCracking101.js"
+              writeupLink="/writeup/PasswordCracking101"
             />
           </Col>
 
@@ -58,7 +58,7 @@ function Projects() {
               imgPath={require("../../Assets/ProjectImages/placeholder4.jpeg")}
               title="Building a Digital Alarm System"
               description="Just like a home alarm system, this project sets up alerts that notify you the moment something suspicious happens on a network. It shows how defenders can catch attackers early before any real damage is done."
-              writeupLink="src/components/Projects/Writeups/BuildingDigitalAlarmSystem.js"
+              writeupLink="/writeup/BuildingDigitalAlarmSystem"
             />
           </Col>
 
@@ -68,7 +68,7 @@ function Projects() {
               imgPath={require("../../Assets/ProjectImages/placeholder5.jpeg")}
               title="Incident Response Walkthrough"
               description="What do you do when you've already been hacked? This project walks through the steps a security team takes to identify what happened, stop the attack, and make sure it never happens again."
-              writeupLink="src/components/Projects/Writeups/IncidentResponseWalkthrough.js"
+              writeupLink="/writeup/IncidentResponseWalkthrough"
             />
           </Col>
 
@@ -78,7 +78,7 @@ function Projects() {
               imgPath={require("../../Assets/ProjectImages/placeholder6.jpeg")}
               title="Threat Hunting on a Budget"
               description="This project shows how to proactively search through a network for hidden threats using free tools. Think of it as going on patrol before anything bad happens, rather than waiting for an alarm to go off."
-              writeupLink="src/components/Projects/Writeups/ThreatHuntingOnABudget.js"
+              writeupLink="/writeup/ThreatHuntingOnABudget"
             />
           </Col>
 
