@@ -17,10 +17,24 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
           {/* EDIT THIS PART:
-          To edit the words on the project cards, change the text inside the title and the description.
-          The writeuplink should redirect to your exact project write-up documentation located here: src/components/Projects/Writeups (I'll go into depth about this in the README).
-          If you want to add more projects on your portfolio copy and paste all code between one 
-          <Col md={4} className="project-card"> Your New Project </Col>*/}
+            - To edit the words shown on the project cards, change the text inside the title and description sections.
+            - To link a project card to its correct write-up page, you will see a line of code similar to this:
+                    
+                    writeupLink="/writeup/ThinkingLikeAHacker"
+
+            - Only change the write-up name at the end. Example: ThinkingLikeAHacker → PromptInjection
+            - Do NOT change:
+            
+                    writeupLink="/writeup/
+
+            - If you want to add more projects to your portfolio, copy and paste all code between one individual:
+
+                    <Col md={4} className="project-card"> Your New Project </Col>
+
+            - Then replace the project information with your own.
+          */}
+
+
 
           {/* PROJECT 1 */}
           <Col md={4} className="project-card">
