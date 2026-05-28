@@ -158,7 +158,7 @@ Then click: Save
 
 <img src="README-Images/environment-variables.png" width="1000">
 
-Now add the second environment variable. 
+Now add the second environment variable by using the same step and clicking `Add Environment Variable` 
 
 ### Key
 
