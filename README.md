@@ -357,7 +357,7 @@ For you to save this 2 edits you have made locate the `Commit Changes` button li
 
 If your prompted again, click the `Commit Changes` button again on the prompt.
 
-You should see some changes on the portfolio.
+You should see some changes on the portfolio, after Vercel has finished deploying.
 
 
 ---
