@@ -91,7 +91,7 @@ Connect your gitHub account inside the **Import Git Repository** section:
 
 <img src="README-Images/Install-github.png" width="1000">
 
-After installing GitHub access all of your repositories should now appear underneath the:
+After installing GitHub all of your repositories should now appear underneath the:
 
       Import Git Repository
 
