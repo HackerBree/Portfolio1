@@ -457,7 +457,7 @@ Replace the `[Name]` with your brand name, don't forget to ""Commit Changes. PS:
 
 Now it’s time to introduce yourself properly to visitors viewing your portfolio.
 
-If you scroll down on the Home Page, you will see a large block of text designed for you to talk about: Who you are, What you do, Your goals, Your interests, Your experience, Or anything else you want people to know about you.
+If you scroll down on the Home Page of the live Portfolio, you will see a large block of text designed for you to talk about: Who you are, What you do, Your goals, Your interests, Your experience, Or anything else you want people to know about you.
 
 This section helps make your portfolio feel more personal and professional.
 
