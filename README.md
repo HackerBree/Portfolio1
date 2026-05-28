@@ -268,7 +268,7 @@ For the smoothest experience, it is recommended that you have 2 browser tabs ope
    
       Then press on your keyboard:
    
-         Windows/Super Key + → (right arrow key)   **Press both at the same time**
+         Windows/Super Key + → (right arrow key)   **Long press windows/super key then click once on the arrow key **
             
       This will show instructions to the right side of your screen.
 
